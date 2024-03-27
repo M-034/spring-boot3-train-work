@@ -10,3 +10,6 @@ insert into item values(9, 'コンパス', 350, 'CD-A01', CURRENT_DATE(), 0);
 insert into item values(10, '消しゴム', 100, 'CD-A01', CURRENT_DATE(), 0);
 insert into item values(11, 'えんぴつ', 80, 'CD-A01', CURRENT_DATE(), 0);
 insert into item values(12, '筆箱', 1000, 'CD-A01', CURRENT_DATE(), 0);
+insert into loginuser values('root', 'root', 'DATA_MANAGER');
+insert into loginuser values('user', 'user', 'USER');
+insert into loginuser values('yanagawa', '123456', 'USER');
